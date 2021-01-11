@@ -77,7 +77,7 @@ class usuarioController{
             unset($_SESSION['admin']);
         }
         header("location:".base_url);
-    }
+     }
     
 }//fin clase
 

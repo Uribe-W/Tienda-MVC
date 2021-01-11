@@ -10,7 +10,20 @@ class Utils{
         return $name;
     }
     
-
+    public function isAdmin() {
+        if(!isset($_SESSION['admin'])){
+            header("Location:".base_url);
+        }else{
+            return true;
+        }
+    }
     
+    public static function ShowCategorias() {
+        require_once 'models/categoria.php';
+        $categoria = new Categoria();
+        $categorias = $categoria->getAll();
+        return $categorias;
+        
+    }
 }
   
