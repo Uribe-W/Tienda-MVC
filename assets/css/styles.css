@@ -174,12 +174,17 @@ td{
 
 /*FORM*/
 
+.form_container{
+    width: 50%;
+    
+}
 
 label,
 input[type='text'],
 input[type='password'],
 input[type='email'],
-select{
+input[type='number'],
+select, textarea{
     display: block;
     width: 95%;
     margin-top: 2px;
@@ -190,7 +195,8 @@ select{
 input[type='text'],
 input[type='password'],
 input[type='email'],
-select{
+input[type='number'],
+select, textarea{
     outline:none;
     border: 1px solid #C9C9C9;
     box-shadow: 0px 0px 2px #ccc inset;
@@ -235,6 +241,15 @@ button, .button{
     margin-bottom: 20px;
 }
 
+.button-gestion{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.button-red{
+    background: red;
+    border: 1px solid #cf1717;
+}
 
 label,
 input[type='button'],
