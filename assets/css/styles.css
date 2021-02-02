@@ -40,6 +40,10 @@ td{
     padding: 2px;
 }
 
+.thumb{
+    width: 100px;
+}
+
 /*COTAINER*/
 
 #container{
