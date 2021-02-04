@@ -6,7 +6,7 @@
     <?php if($produc->imagen != null): ?>
     <img src="<?=base_url?>uploads/images/<?=$produc->imagen?>"/>
     <?php else :?>
-    <img src="assets/img/camiseta.png"/>
+    <img src="<?=base_url?>assets/img/camiseta.png"/>
     <?php endif; ?>
     
     <h2><?=$produc->nombre?></h2>
