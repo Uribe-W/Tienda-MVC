@@ -292,12 +292,13 @@ button{
     float:  left;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 30px;
     text-align: center;
     
 }
 
 .product img{
-    width: 100px;
+    height: 170px;
     margin-bottom: 10px;
 }
 
