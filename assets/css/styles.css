@@ -322,6 +322,47 @@ button{
     font-weight: bold;
     color: #555;
 }
+
+#detail_product{
+    width: 100%;
+}
+
+#detail-product .image{
+    display: block;
+    width: 40%;
+    float: left;
+    margin-right: 40px;
+}
+
+#detail-product img{
+    display: block;
+    width: 100%;
+    float: left;
+        
+}
+
+#detail-product .data{
+    width: 45%;
+    float: right;
+    margin-right: 40px;
+}
+ 
+#detail-product .descripcion{
+    margin-bottom: 10px;
+}
+
+#detail-product .price{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #444;
+    
+}
+
+#detail-product .button{
+    width: 200px;
+    text-align: center;
+}
+
 /* footer*/
 
 #footer{
