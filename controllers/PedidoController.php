@@ -3,7 +3,11 @@
 class pedidoController{
     
     public function index() {
-        echo 'controlador pedidos, accion index';
+        echo 'controlador pedidos, accion index';   
+    }
+    
+    public function add() {
         
     }
+    
 }
